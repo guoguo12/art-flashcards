@@ -35,6 +35,7 @@ h1, h2 {
     display: block;
     margin: 0px auto 15px auto;
     max-height: 475px;
+    max-width: 800px;
 }
 
 #description, #hint-text {
