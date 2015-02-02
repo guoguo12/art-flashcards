@@ -26,7 +26,7 @@ angular.module('flashcardApp', [])
     $scope.update = function() {
       var artwork = $scope.artworks[$scope.index];
       $scope.imageUrl = artwork.url;
-      $scope.title = '\'' + artwork.title + '\'';
+      $scope.title = artwork.title;
       $scope.artistDate = artwork.artist + ', ' + artwork.date;
     }
     $scope.onKeyUp = function($event) {
