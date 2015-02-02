@@ -1,0 +1,76 @@
+<!doctype html>
+<html ng-app="flashcardApp" ng-controller="flashcardController" ng-keyup="onKeyUp($event)">
+  <head>
+    <title>HISTART 11 Flashcards - Spring 2015</title>
+    <style>
+      [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+        display: none !important;
+      }
+    </style>    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/keys.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navbar navbar-inverse">
+      <div class="navbar-header">
+        <span id="header" class="navbar-brand">HISTART 11 Flashcards &ndash; Spring 2015</span>
+      </div>
+    </div>    
+    <div id="main-container" class="container-fluid" ng-cloak>
+      <div class="row">
+        <div id="canvas" class="col-md-8">
+          <!--
+          <div id="hint-text" class="animated fadeIn" ng-hide="showDescription">
+            <span ng-click="showDescription = true">Click to view artwork description.</span>
+          </div>        
+          -->
+          <div id="hint-text" class="animated fadeIn" ng-hide="showDescription">
+            (Description hidden.)
+          </div>   
+          <div id="description" class="animated fadeIn" ng-show="showDescription" ng-click=""> <!-- showDescription = false -->
+            <h1 id="picture-title">{{ title }}</h1>
+            <h2>{{ artistDate }}</h2>
+          </div>
+          <img id="picture" ng-src="{{ imageUrl }}"></img>
+        </div>
+        <div id="sidebar" class="col-md-4">
+          <!--
+          <div class="box">
+            <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+            <h4>Sets</h4>
+            <div id="sets" ng-repeat="set in sets">
+            <div class="checkbox"><label><input type="checkbox">{{ set }}</label></div>
+            </div>
+          </div>
+          <div class="box">
+            <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>          
+            <h4>Settings</h4>
+            <div class="checkbox"><label><input type="checkbox" ng-model="showDescription">Show artwork description</label></div>
+          </div>
+          -->
+          <div class="box">
+            <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>          
+            <h4>Controls</h4>
+            Use <kbd class="light">&larr;</kbd> and <kbd class="light">&rarr;</kbd> to move between artworks.
+            <p>
+            Press <kbd class="light">Space</kbd> to toggle the description.
+            </div>
+          <div class="box">
+            <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>          
+            <h4>About</h4>
+            This site was built by <b>Allen Guo</b> using jQuery, Bootstrap, AngularJS, KEYS.css, and Animate.css.
+            <p>
+            Get the source code at <a href="" target="_blank">GitHub</a>.
+          </div>          
+        </div>
+      </div>
+    </div>    
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/angular.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
