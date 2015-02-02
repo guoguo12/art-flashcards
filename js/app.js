@@ -4,7 +4,7 @@ angular.module('flashcardApp', [])
     $scope.sets = ['Week 2']; // Not used 
     $scope.artworks = [];
     $scope.index = 0;
-    $http.get('data/data.json')
+    $http.get('data/week2.json')
       .success(function(data) {
         $scope.artworks = data.artworks;
         $scope.update();
