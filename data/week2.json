@@ -1,0 +1,70 @@
+{
+    "artworks": [
+        {
+            "date": "1310",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/GiottoMadonna.jpg",
+            "artist": "Giotto",
+            "title": "Virgin and Child Enthroned"
+        },
+        {
+            "date": "1306",
+            "url": "https://classconnection.s3.amazonaws.com/984/flashcards/555984/png/screen_shot_2012-01-22_at_4.34.45_pm1329521273943.png",
+            "artist": "Giotto",
+            "title": "The Wedding at Cana, The Raising of Lazarus, The Lamentation, The Resurrection and Noli me tangere"
+        },
+        {
+            "date": "1311",
+            "url": "http://www.canvasreplicas.com/images/Raising%20of%20Lazarus%20Duccio%20di%20Buoninsegna.jpg",
+            "artist": "Duccio",
+            "title": "Raising of Lazarus"
+        },
+        {
+            "date": "1336",
+            "url": "http://media-cache-ak0.pinimg.com/736x/35/e1/6f/35e16f26ebd8d0049144a12cfbd32c59.jpg",
+            "artist": "Andrea Pisano",
+            "title": "The Baptism of the Multitude"
+        },
+        {
+            "date": "1339",
+            "url": "https://mydailyartdisplay.files.wordpress.com/2011/02/by-amorgio.jpg",
+            "artist": "Ambrogio Lorenzetti",
+            "title": "The Effects of Good Government in the City and in the Country"
+        },
+        {
+            "date": "c. 1330",
+            "url": "http://www.theslideprojector.com/images/art3/vesperbild.jpg",
+            "artist": "Unknown Artist",
+            "title": "Versperbild (Piet\u00e0)"
+        },
+        {
+            "date": "1434",
+            "url": "http://hoocher.com/Jan_van_Eyck/Portrait_of_Giovanni_Arnolfini_and_his_Wife_1434.jpg",
+            "artist": "Jan van Eyck",
+            "title": "Double Portrait of a Giovanni Arnolfini and His Wife"
+        },
+        {
+            "date": "1416",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Limbourg_brothers_-_Les_tr%C3%A8s_riches_heures_du_Duc_de_Berry_-_Fevrier_(February),_detail_-_WGA13019.jpg",
+            "artist": "Paul, Herman, and Jean Limbourg",
+            "title": "February, Life in the Country, Tr\u00e8s Riches Heures"
+        },
+        {
+            "date": "c. 1430",
+            "url": "http://www.wga.hu/art/m/master/flemalle/merode/0merode1.jpg",
+            "artist": "Robert Campin",
+            "title": "M\u00e9rode Altarpiece"
+        },
+        {
+            "date": "c. 1438",
+            "url": "http://hoocher.com/Rogier_van_der_Weyden/Deposition_ca_1435.jpg",
+            "artist": "Rogier van der Weyden",
+            "title": "Deposition"
+        },
+        {
+            "date": "1493",
+            "url": "https://s3.amazonaws.com/classconnection/90/flashcards/6422090/png/the_city_of_nuremberg-14A2655B7AF025829FC.png",
+            "artist": "Wolgemut, Pleydenwuff, and Koberger",
+            "title": "The City of Nuremberg"
+        }
+    ]
+}

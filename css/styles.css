@@ -1,0 +1,87 @@
+html, body {
+    background-color: #000;
+    color: #DADADA;
+    font-family: "Arial", sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h1, h2 {
+    margin: 0px;
+}
+
+#header {
+    margin: 5px 0px 5px 0px;
+    color: #AAA;
+}
+
+#main-container {
+    min-height: 500px;
+}
+
+#sidebar {
+}
+
+#canvas {
+}
+
+#picture {
+    display: block;
+    margin: 0px auto 15px auto;
+    max-height: 475px;
+    max-width: 800px;
+}
+
+#description, #hint-text {
+    text-align: center;
+    margin-bottom: 15px;
+/*    cursor: pointer; */
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+}
+
+#description h2 {
+    margin-top: 3px;
+}
+
+#hint-text {
+    color: #AAA;
+}
+
+/*
+#picture-title {
+    font-style: italics;
+}
+*/
+
+.box {
+    border: 1px gray solid;
+    padding: 10px 15px 15px 15px;
+    margin-bottom: 10px;
+}
+
+.box p {
+    margin-top: 10px;
+}
+
+.box > .glyphicon {
+    font-size: 16px;
+    margin-top: 10px;
+    float: right;
+}
+
+::selection {
+    background-color: transparent;
+    color: none;
+}
+
+::-moz-selection {
+    background-color: transparent;
+    color: none;
+}
