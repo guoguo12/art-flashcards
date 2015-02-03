@@ -1,4 +1,23 @@
 angular.module('flashcardApp', [])
+  .directive('placeholderOnLoad', function() {
+    return {
+      restrict: 'A',
+      link: function(scope, element, attrs) {
+        scope.$watch('imageUrl', function(newVal, oldVal) {
+          if (newVal != oldVal) {
+            var img = element[0];
+            img.style.display = 'none';
+            var temp = new Image();
+            temp.onload = function() {
+              img.src = temp.src;
+              img.style.display = 'block';
+            }
+            temp.src = newVal;
+          }
+        })
+      }
+    }
+  })
   .controller('flashcardController', ['$scope', '$http', function($scope, $http) {
     $scope.showDescription = true;
     $scope.sets = ['Week 2']; // Not used 
