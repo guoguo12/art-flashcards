@@ -1,18 +1,27 @@
 angular.module('flashcardApp', [])
-  .directive('placeholderOnLoad', function() {
+  .directive('picturePlaceholder', function() {
     return {
       restrict: 'A',
       link: function(scope, element, attrs) {
         scope.$watch('imageUrl', function(newVal, oldVal) {
           if (newVal != oldVal) {
-            var img = element[0];
-            img.style.display = 'none';
-            var temp = new Image();
-            temp.onload = function() {
-              img.src = temp.src;
-              img.style.display = 'block';
+            var container = $(element[0]);
+            container.empty();
+            // Create and add spinner
+            var spinner = new Image();
+            spinner.id = 'spinner';
+            spinner.className = 'animated fadeIn';            
+            spinner.src = 'images/spinner.gif';
+            container.append(spinner);
+            // Create image and begin loading
+            var image = new Image();
+            image.id = 'picture';
+            image.className = 'animated fadeIn';
+            image.onload = function() {
+              container.empty();
+              container.append(image);
             }
-            temp.src = newVal;
+            image.src = newVal;
           }
         })
       }
