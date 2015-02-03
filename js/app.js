@@ -32,9 +32,7 @@ angular.module('flashcardApp', [])
       restrict: 'A',
       link: function(scope, element, attrs) {
         scope.$watch('index', function(newVal, oldVal) {
-          console.log(100 * (newVal + 1) / scope.artworks.length);
           element[0].style.width = 100 * (newVal + 1) / scope.artworks.length + '%';
-          console.log(element[0]);
         });
       }
     }
