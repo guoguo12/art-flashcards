@@ -54,11 +54,20 @@
           -->
           <div class="box animated fadeIn">
             <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>          
+            <h4>Progress</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" style="width: 0%" progress-bar>
+              </div>
+            </div>
+            This is artwork <b>{{ index + 1 }}</b> of <b>{{ artworks.length }}</b> from the set <b>{{ setName }}</b>.
+          </div>          
+          <div class="box animated fadeIn">
+            <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>          
             <h4>Controls</h4>
             Use <kbd class="light">&larr;</kbd> and <kbd class="light">&rarr;</kbd> to move between artworks.
             <p>
             Press <kbd class="light">Space</kbd> to toggle the description.
-            </div>
+          </div>
           <div class="box animated fadeIn">
             <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>          
             <h4>About</h4>

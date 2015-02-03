@@ -82,6 +82,10 @@ h1, h2 {
     float: right;
 }
 
+.progress {
+    margin-bottom: 10px;
+}
+
 ::selection {
     background-color: transparent;
     color: none;
