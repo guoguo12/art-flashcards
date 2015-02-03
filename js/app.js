@@ -1,12 +1,53 @@
 angular.module('flashcardApp', [])
+  .directive('picturePlaceholder', function() {
+    return {
+      restrict: 'A',
+      link: function(scope, element, attrs) {
+        scope.$watch('imageUrl', function(newVal, oldVal) {
+          if (newVal != oldVal) {
+            var container = $(element[0]);
+            container.empty();
+            // Create and add spinner
+            var spinner = new Image();
+            spinner.id = 'spinner';
+            spinner.className = 'animated fadeIn';            
+            spinner.src = 'images/spinner.gif';
+            container.append(spinner);
+            // Create image and begin loading
+            var image = new Image();
+            image.id = 'picture';
+            image.className = 'animated fadeIn';
+            image.onload = function() {
+              container.empty();
+              container.append(image);
+            }
+            image.src = newVal;
+          }
+        });
+      }
+    }
+  })
+  .directive('progressBar', function() {
+    return {
+      restrict: 'A',
+      link: function(scope, element, attrs) {
+        scope.$watch('index', function(newVal, oldVal) {
+          console.log(100 * (newVal + 1) / scope.artworks.length);
+          element[0].style.width = 100 * (newVal + 1) / scope.artworks.length + '%';
+          console.log(element[0]);
+        });
+      }
+    }
+  })
   .controller('flashcardController', ['$scope', '$http', function($scope, $http) {
     $scope.showDescription = true;
     $scope.sets = ['Week 2']; // Not used 
+    $scope.setName = 'Week 2';
     $scope.artworks = [];
-    $scope.index = 0;
     $http.get('data/week2.json')
       .success(function(data) {
         $scope.artworks = data.artworks;
+        $scope.index = 0;
         $scope.update();
       })
       .error(function(data) {
@@ -26,7 +67,7 @@ angular.module('flashcardApp', [])
     $scope.update = function() {
       var artwork = $scope.artworks[$scope.index];
       $scope.imageUrl = artwork.url;
-      $scope.title = '\'' + artwork.title + '\'';
+      $scope.title = artwork.title;
       $scope.artistDate = artwork.artist + ', ' + artwork.date;
     }
     $scope.onKeyUp = function($event) {

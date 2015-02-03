@@ -31,11 +31,17 @@ h1, h2 {
 #canvas {
 }
 
-#picture {
+#picture, #spinner {
     display: block;
     margin: 0px auto 15px auto;
     max-height: 475px;
     max-width: 800px;
+    -webkit-animation-duration: 0.15s;
+    -moz-animation-duration: 0.15s;    
+}
+
+#spinner {
+    margin: 140px auto 240px auto;
 }
 
 #description, #hint-text {
@@ -74,6 +80,10 @@ h1, h2 {
     font-size: 16px;
     margin-top: 10px;
     float: right;
+}
+
+.progress {
+    margin-bottom: 10px;
 }
 
 ::selection {
