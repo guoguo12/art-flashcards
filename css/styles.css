@@ -41,7 +41,7 @@ h1, h2 {
 }
 
 #spinner {
-    margin-top: 140px;
+    margin: 140px auto 240px auto;
 }
 
 #description, #hint-text {
