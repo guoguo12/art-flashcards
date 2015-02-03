@@ -69,6 +69,7 @@ angular.module('flashcardApp', [])
       $scope.imageUrl = artwork.url;
       $scope.title = artwork.title;
       $scope.artistDate = artwork.artist + ', ' + artwork.date;
+      _gaq.push(['_trackEvent', 'General', 'Update', artwork.title]);
     }
     $scope.onKeyUp = function($event) {
       if ($event.keyCode == 32) {
