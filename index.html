@@ -41,13 +41,6 @@
         <div id="sidebar" class="col-md-4">
           <!--
           <div class="box">
-            <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
-            <h4>Sets</h4>
-            <div id="sets" ng-repeat="set in sets">
-            <div class="checkbox"><label><input type="checkbox">{{ set }}</label></div>
-            </div>
-          </div>
-          <div class="box">
             <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>          
             <h4>Settings</h4>
             <div class="checkbox"><label><input type="checkbox" ng-model="showDescription">Show artwork description</label></div>
@@ -61,6 +54,35 @@
               </div>
             </div>
             This is artwork <b>{{ index + 1 }}</b> of <b>{{ artworks.length }}</b> from the set <b>{{ setName }}</b>.
+          </div>          
+          <div class="box animated fadeIn">
+            <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+            <h4>Sets</h4>
+            <!--
+            <div class="row">
+            <div class="col-md-8">
+            <select class="form-control">
+              <option ng-model="setName" ng-repeat="set in setNames">{{ set }}</option>
+            </select>
+            </div>
+            <div class="col-md-4">
+            <input class="btn btn-default btn-sm" type="submit" value="Submit">
+            </div>
+            </div>
+            -->
+            <!--
+            <div id="sets" ng-repeat="set in setNames">
+            <div class="radio"><label><input name="setsRadios" type="radio" value="{{ set }}" ng-model="setName">{{ set }}</label></div>
+            </div>
+            <input class="btn btn-default btn-sm" type="submit" value="Submit">
+            -->
+            Choose the set you would like to switch to:
+            <ul>
+              <li ng-repeat="set in setNames">
+              <a href="#{{ sets[set] }}" ng-click="updateSet(set)">{{ set }}</a>
+              <span ng-show="set == setName">(current set)</span>
+              </li>
+            </ul>
           </div>          
           <div class="box animated fadeIn">
             <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>          
