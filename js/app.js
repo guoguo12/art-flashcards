@@ -45,6 +45,7 @@ angular.module('flashcardApp', [])
     $scope.artworks = [];
     $http.get('data/index.json')
       .success(function(data) {
+        console.log('Successfully fetched index.');
         $scope.sets = data;
         $scope.setNames = Object.keys(data);
         $scope.updateSet($scope.setNames[0]);
