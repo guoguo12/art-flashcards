@@ -31,26 +31,45 @@ angular.module('flashcardApp', [])
     return {
       restrict: 'A',
       link: function(scope, element, attrs) {
-        scope.$watch('index', function(newVal, oldVal) {
-          element[0].style.width = 100 * (newVal + 1) / scope.artworks.length + '%';
+        scope.$watchGroup(['index', 'artworks'], function(newVals, oldVals, scope) {
+          element[0].style.width = 100 * (newVals[0] + 1) / scope.artworks.length + '%';
         });
       }
     }
   })
   .controller('flashcardController', ['$scope', '$http', function($scope, $http) {
     $scope.showDescription = true;
-    $scope.sets = ['Week 2']; // Not used 
-    $scope.setName = 'Week 2';
+    $scope.sets = [];
+    $scope.setNames = [];
+    $scope.setName = '';
     $scope.artworks = [];
-    $http.get('data/week2.json')
+    $http.get('data/index.json')
       .success(function(data) {
-        $scope.artworks = data.artworks;
-        $scope.index = 0;
-        $scope.update();
-      })
-      .error(function(data) {
-        // TODO: Show error message
+        $scope.sets = data;
+        $scope.setNames = Object.keys(data);
+        $scope.updateSet($scope.setNames[0]);
       });
+    $scope.updateSet = function(newSetName) {
+      $scope.setName = newSetName;
+      $http.get('data/' + $scope.sets[$scope.setName])
+        .success(function(data) {
+          console.log('Switching to ' + newSetName + '...');
+          $scope.setName = data.name;
+          $scope.artworks = data.artworks;
+          $scope.index = 0;
+          $scope.update();
+        })
+        .error(function(data) {
+          // TODO: Show error message
+        });
+    }
+    $scope.update = function() {
+      var artwork = $scope.artworks[$scope.index];
+      $scope.imageUrl = artwork.url;
+      $scope.title = artwork.title;
+      $scope.artistDate = artwork.artist + ', ' + artwork.date;
+      _gaq.push(['_trackEvent', 'General', 'Update', artwork.title]);
+    }    
     $scope.moveLeft = function() {
       $scope.index = $scope.index - 1;
       while ($scope.index < 0) {
@@ -62,13 +81,6 @@ angular.module('flashcardApp', [])
       $scope.index = ($scope.index + 1) % $scope.artworks.length;
       $scope.update();
     }      
-    $scope.update = function() {
-      var artwork = $scope.artworks[$scope.index];
-      $scope.imageUrl = artwork.url;
-      $scope.title = artwork.title;
-      $scope.artistDate = artwork.artist + ', ' + artwork.date;
-      _gaq.push(['_trackEvent', 'General', 'Update', artwork.title]);
-    }
     $scope.onKeyUp = function($event) {
       if ($event.keyCode == 32) {
         // Space
