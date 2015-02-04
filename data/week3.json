@@ -5,6 +5,66 @@
             "url": "https://gs1.wac.edgecastcdn.net/8019B6/data.tumblr.com/tumblr_lfabx9ANvb1qfzq9d.jpg",
             "artist": "Brunelleschi",
             "title": "Dome of Florence Cathedral (Santa Maria del Fiore)"
+        },
+        {
+            "date": "1417",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/FirenzeOrsanmichele03.jpg/250px-FirenzeOrsanmichele03.jpg",
+            "artist": "Nanni di Banco",
+            "title": "The Four Crowned Martyrs"
+        },
+        {
+            "date": "c. 1460",
+            "url": "https://www.oneonta.edu/faculty/farberas/arth/Images/ARTH213images/Donatello/david/front.jpg",
+            "artist": "Donatello",
+            "title": "David"
+        },
+        {
+            "date": "c. 1435",
+            "url": "http://www.shafe.co.uk/crystal/images/lshafe/Ghiberti_Jacod_and_Esau.jpg",
+            "artist": "Ghiberti",
+            "title": "Jacob and Esau (from The Gates of Paradise)"
+        },
+        {
+            "date": "1481",
+            "url": "http://www.cuf.org/wp-content/uploads/2013/08/Christ_Handing_the_Keys_to_St._Peter_by_Pietro_Perugino.jpg",
+            "artist": "Perugino",
+            "title": "The Delivery of the Keys to St. Peter"
+        },
+        {
+            "date": "c. 1428",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Masaccio,_trinit%C3%A0.jpg",
+            "artist": "Masaccio",
+            "title": "Trinity with the Virgin, St. John the Evangelist, and Donors"
+        },
+        {
+            "date": "c. 1445",
+            "url": "http://www.artbible.info/images/annun_angelico_grt.jpg",
+            "artist": "Fra Angelico",
+            "title": "Annunciation"
+        },
+        {
+            "date": "c. 1445",
+            "url": "http://www.metmuseum.org/toah/images/h2/h2_89.15.19.jpg",
+            "artist": "Fra Filippo Lippi",
+            "title": "Portrait of a Woman and Man"
+        },
+        {
+            "date": "c. 1474",
+            "url": "http://distortedarts.com/wp-content/uploads/2013/05/Federico-da-Montefeltro-e-moglie-Battista-Sforza.jpg",
+            "artist": "Piero della Francesca",
+            "title": "Battista Sforza and Federico da Montefeltro"
+        },
+        {
+            "date": "1485",
+            "url": "http://hoocher.com/Domenico_Ghirlandaio/Adoration_of_the_Shepherds_1482_85.jpg",
+            "artist": "Domenico Ghirlandaio",
+            "title": "Nativity and Adoration of the Shepherds"
+        },
+        {
+            "date": "c. 1486",
+            "url": "http://www.italian-renaissance-art.com/images/Birth_of_Venus_Botticelli.jpg",
+            "artist": "Botticelli",
+            "title": "Birth of Venus"
         }
     ],
     "name": "Week 3"
