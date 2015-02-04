@@ -85,11 +85,11 @@ angular.module('flashcardApp', [])
       if ($event.keyCode == 32) {
         // Space
         $scope.showDescription = !$scope.showDescription;
-      } else if ($event.keyCode == 37) {
-        // left arrow
+      } else if ($event.keyCode == 37 || $event.keyCode == 65) {
+        // left arrow or A
         $scope.moveLeft();
-      } else if ($event.keyCode == 39) {
-        // Right arrow
+      } else if ($event.keyCode == 39 || $event.keyCode == 68) {
+        // Right arrow or D
         $scope.moveRight();
       }
       $event.preventDefault();
