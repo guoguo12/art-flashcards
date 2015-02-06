@@ -1,2 +1,5 @@
 # art-flashcards
-Online flashcards for UC Berkeley's HISTART 11 (Fall 2015).
+
+Memorizing artworks? What a pain. Until now, that is...
+
+Live site: http://guoguo12.github.io/art-flashcards
