@@ -17,11 +17,21 @@ angular.module('flashcardApp', [])
             var image = new Image();
             image.id = 'picture';
             image.className = 'animated fadeIn';
-            image.onload = function() {
-              container.empty();
-              container.append(image);
-            }
             image.src = newVal;
+            if (image.complete) {
+              // Image is in cache
+              container.empty().append(image);
+            } else {
+              // Image is not in cache
+              var loadedImageUrl = newVal;
+              image.onload = function() {
+                if (loadedImageUrl === scope.imageUrl) {
+                  container.empty().append(image);
+                } else {
+                  console.log('Image loaded but user has moved away');
+                }
+              }
+            }
           }
         });
       }
@@ -61,7 +71,7 @@ angular.module('flashcardApp', [])
           $scope.update();
         })
         .error(function(data) {
-          // TODO: Show error message
+          console.error('Set update failed');
         });
     }
     $scope.update = function() {
