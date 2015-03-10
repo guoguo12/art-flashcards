@@ -3,10 +3,12 @@ Make sure data TXT files are encoded in UTF-8 without BOM.
 """
 
 import json, os
+from collections import OrderedDict
 
 paths = filter(lambda p: '.txt' in p, os.listdir('.'))
 names = []
-for path in paths:
+for path in sorted(paths):
+    print path
     artworks = []
     with open(path) as file:
         lines = file.readlines()
@@ -27,4 +29,4 @@ for path in paths:
         file.write(json.dumps(output, indent=4, separators=(',', ': ')))
 with open('index.json', 'w') as file:
     json_paths = [path.replace('.txt', '.json') for path in paths]
-    file.write(json.dumps(dict(zip(names, json_paths)), indent=4, separators=(',', ': ')))
+    file.write(json.dumps(OrderedDict(zip(names, json_paths)), indent=4, separators=(',', ': ')))
