@@ -1,7 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
 html, body {
     background-color: #000;
     color: #DADADA;
-    font-family: "Arial", sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 100%;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -29,6 +32,10 @@ ul {
     margin-top: 10px;
 }
 
+kbd {
+    cursor: pointer;
+}
+
 #header {
     margin: 5px 0px 5px 0px;
     color: #AAA;
@@ -47,7 +54,7 @@ ul {
 #picture, #spinner {
     display: block;
     margin: 0px auto 15px auto;
-    max-height: 475px;
+    max-height: 550px;
     max-width: 800px;
     -webkit-animation-duration: 0.15s;
     -moz-animation-duration: 0.15s;    
@@ -71,6 +78,17 @@ ul {
 
 #hint-text {
     color: #AAA;
+}
+
+#controls {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 28px;
+}
+
+#controls > kbd {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 /*

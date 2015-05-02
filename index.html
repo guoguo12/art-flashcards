@@ -37,6 +37,9 @@
           </div>
           <!-- <img id="picture" class="animated fadeIn" ng-src="{{ imageUrl }}" placeholder-on-load></img> -->
           <div id="picture-container" picture-placeholder></div>
+          <div id="controls" class="hidden-md hidden-lg">
+          <kbd class="light" ng-click="moveLeft()">&larr; Back</kbd> <kbd class="light" ng-click="showDescription = !showDescription">Toggle Description</kbd> <kbd class="light" ng-click="moveRight()">Next &rarr;</kbd>
+          </div>
         </div>
         <div id="sidebar" class="col-md-4">
           <!--
@@ -87,9 +90,9 @@
           <div class="box animated fadeIn">
             <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>          
             <h4>Controls</h4>
-            Use <kbd class="light">&larr;</kbd> and <kbd class="light">&rarr;</kbd> to move between artworks.
+            Use <kbd class="light" ng-click="moveLeft()">&larr;</kbd> and <kbd class="light" ng-click="moveRight()">&rarr;</kbd> to move between artworks.
             <p>
-            Press <kbd class="light">Space</kbd> to toggle the description.
+            Press <kbd class="light" ng-click="showDescription = !showDescription">Space</kbd> to toggle the description.
           </div>
           <div class="box animated fadeIn">
             <span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>          
