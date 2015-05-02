@@ -1,0 +1,71 @@
+{
+    "artworks": [
+        {
+            "date": "1652",
+            "url": "http://www.boglewood.com/cornaro/xteresafull.jpg",
+            "artist": "Gianlorenzo Bernini",
+            "title": "St. Teresa of \u00c1vila in Ecstasy"
+        },
+        {
+            "date": "1601",
+            "url": "http://www.wetcanvas.com/Community/images/26-Jun-2004/30792-emmaus.jpg",
+            "artist": "Caravaggio",
+            "title": "Supper at Emmaus"
+        },
+        {
+            "date": "1610",
+            "url": "http://www.canvasreplicas.com/images/Susanna%20and%20the%20Elders%20Artemisia%20Gentileschi.jpg",
+            "artist": "Artemisia Gentileschi",
+            "title": "Susannah and the Elders"
+        },
+        {
+            "date": "1656",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas,_by_Diego_Vel%C3%A1zquez,_from_Prado_in_Google_Earth.jpg/521px-Las_Meninas,_by_Diego_Vel%C3%A1zquez,_from_Prado_in_Google_Earth.jpg",
+            "artist": "Diego Vel\u00e1zquez",
+            "title": "Las Meninas (The Maids of Honor)"
+        },
+        {
+            "date": "1611",
+            "url": "https://classconnection.s3.amazonaws.com/160/flashcards/1566160/jpg/still_life_with_flowers__goblet__dried_fruit_and_pretzels1337129977712.jpg",
+            "artist": "Clara Peeters",
+            "title": "Still Life with Flowers, Goblet, Dried Fruit, and Pretzels"
+        },
+        {
+            "date": "1632",
+            "url": "https://31.media.tumblr.com/tumblr_lnidikt0lt1qggdq1.jpg",
+            "artist": "Peter Paul Rubens",
+            "title": "Garden of Love"
+        },
+        {
+            "date": "1627",
+            "url": "http://www.theslideprojector.com/images/baroque/rembrandt/officersofthehaarlemmilitiacompanyofsaintadrian.jpg",
+            "artist": "Franz Hals",
+            "title": "Officers of the Haarlem Militia Company of St. Adrian"
+        },
+        {
+            "date": "1642",
+            "url": "http://paintingdb.com/art/l/1/72.jpg",
+            "artist": "Rembrandt",
+            "title": "The Company of Captain Franz Banning Cocq (The Night Watch)"
+        },
+        {
+            "date": "1664",
+            "url": "http://www.oceansbridge.com/paintings/artists/recently-added/july2008/big/Woman-Holding-a-Balance-1664-XX-Jan-Vermeer.JPG",
+            "artist": "Vermeer",
+            "title": "Woman Holding a Balance"
+        },
+        {
+            "date": "1640",
+            "url": "http://everypainterpaintshimself.com/article_images_new/poussin_landscape_1.jpg",
+            "artist": "Nicolas Poussin",
+            "title": "Landscape with St. John on Patmos"
+        },
+        {
+            "date": "1648",
+            "url": "http://www.allpaintings.org/d/23962-2/Claude+Lorrain+-+Landscape+with+Shepherd+_Pastorale_.jpg",
+            "artist": "Claude Lorrain",
+            "title": "A Pastoral Landscape"
+        }
+    ],
+    "name": "Week 7"
+}
