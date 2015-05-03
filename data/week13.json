@@ -1,0 +1,65 @@
+{
+    "artworks": [
+        {
+            "date": "1964",
+            "url": "https://classconnection.s3.amazonaws.com/250/flashcards/405250/jpg/meat_joy_1964.jpg",
+            "artist": "Carolee Schneeman",
+            "title": "Meat Joy"
+        },
+        {
+            "date": "1962",
+            "url": "https://upload.wikimedia.org/wikipedia/en/8/87/Marilyndiptych.jpg",
+            "artist": "Andy Warhol",
+            "title": "Marilyn Diptych"
+        },
+        {
+            "date": "1961",
+            "url": "https://plazalondon.files.wordpress.com/2011/01/oldenburgs-store.jpg",
+            "artist": "Claes Oldenburg",
+            "title": "Store"
+        },
+        {
+            "date": "1973",
+            "url": "https://www.brooklynmuseum.org/eascfa/feminist_art_base/archive/images/307.832.jpg",
+            "artist": "Harmony Hammond",
+            "title": "Floorpiece, VI"
+        },
+        {
+            "date": "1965",
+            "url": "https://upload.wikimedia.org/wikipedia/en/2/2d/Kosuth_OneAndThreeChairs.jpg",
+            "artist": "Joseph Kosuth",
+            "title": "One and Three Chairs"
+        },
+        {
+            "date": "1967",
+            "url": "https://c300221.ssl.cf1.rackcdn.com/bruce-nauman-self-portrait-as-a-fountain-1339321840_org.jpg",
+            "artist": "Bruce Naumann",
+            "title": "Self Portrait as a Fountain"
+        },
+        {
+            "date": "1970",
+            "url": "http://graphics8.nytimes.com/images/2006/05/12/arts/HESS.2.jpg",
+            "artist": "Eva Hesse",
+            "title": "Rope Piece"
+        },
+        {
+            "date": "1977",
+            "url": "http://greenmuseum.org/c/aen/Images/Ecology/arbol-l.jpeg",
+            "artist": "Ana Mendieta",
+            "title": "Untitled, from the Tree of Life Series"
+        },
+        {
+            "date": "1972",
+            "url": "https://arthistoryoftheday.files.wordpress.com/2011/09/jem1.jpg",
+            "artist": "Beyte Saar",
+            "title": "The Liberation of Aunt Jemima"
+        },
+        {
+            "date": "1970",
+            "url": "https://libraries.ucsd.edu/blogs/arts/files/2008/02/spiral-jetty-08.jpg",
+            "artist": "Robert Smithson",
+            "title": "Spiral Jetty"
+        }
+    ],
+    "name": "Week 13"
+}

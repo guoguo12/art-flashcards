@@ -1,0 +1,65 @@
+{
+    "artworks": [
+        {
+            "date": "1931",
+            "url": "http://www.moma.org/collection_images/resized/006/w500h420/CRI_257006.jpg",
+            "artist": "Salvador Dal\u00ed",
+            "title": "The Persistence of Memory"
+        },
+        {
+            "date": "1936",
+            "url": "https://upload.wikimedia.org/wikipedia/en/c/c1/M%C3%A9ret_Oppenheim_Object.jpg",
+            "artist": "Meret Oppenheim",
+            "title": "Object (Luncheon in Fur)"
+        },
+        {
+            "date": "1933",
+            "url": "http://www.moma.org/images/dynamic_content/exhibition_page/25316.jpg",
+            "artist": "Joan Mir\u00f3",
+            "title": "Composition"
+        },
+        {
+            "date": "1950",
+            "url": "http://uploads5.wikiart.org/images/jackson-pollock/autumn-rhythm-number-30-1950.jpg",
+            "artist": "Jackson Pollock",
+            "title": "Autumn Rhythm (Number 30)"
+        },
+        {
+            "date": "1952",
+            "url": "http://www.moma.org/collection_images/resized/837/w500h420/CRI_174837.jpg",
+            "artist": "Willem de Kooning",
+            "title": "Woman I"
+        },
+        {
+            "date": "1952",
+            "url": "http://uploads4.wikiart.org/images/helen-frankenthaler/mountains-and-sea-1962.jpg!Large.jpg",
+            "artist": "Helen Frankenthaler",
+            "title": "Mountains and Sea"
+        },
+        {
+            "date": "1964",
+            "url": "http://www.davidsmithestate.org/bio_files/3_cubis.jpg",
+            "artist": "David Smith",
+            "title": "Cubi"
+        },
+        {
+            "date": "1955",
+            "url": "http://images.artnet.com/images_us/magazine/features/cone/cone2-16-07-2.jpg",
+            "artist": "Jasper Johns",
+            "title": "Target with Plaster Casts"
+        },
+        {
+            "date": "1959",
+            "url": "https://perezartsplastiques.files.wordpress.com/2011/09/rauschenberg-canyon-1959.jpg",
+            "artist": "Robert Rauschenberg",
+            "title": "Canyon"
+        },
+        {
+            "date": "1961",
+            "url": "http://ddd.uab.cat/pub/disturbis/disturbis_a2011n10/disturbis_a2011n10a6/droppedImage_1.jpg",
+            "artist": "Allan Kaprow",
+            "title": "Yard"
+        }
+    ],
+    "name": "Week 12"
+}

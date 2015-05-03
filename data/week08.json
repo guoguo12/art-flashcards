@@ -1,0 +1,47 @@
+{
+    "artworks": [
+        {
+            "date": "c. 1721",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Gersaint.jpg/640px-Gersaint.jpg",
+            "artist": "Jean-Antoine Watteau",
+            "title": "The Signboard of Gersaint"
+        },
+        {
+            "date": "1766",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Fragonard%2C_The_Swing.jpg/374px-Fragonard%2C_The_Swing.jpg",
+            "artist": "Jean-Honor\u00e9 Fragonard",
+            "title": "The Swing"
+        },
+        {
+            "date": "1729",
+            "url": "http://azothgallery.com/blog/JohnSmibertTheBermudaGroup_550.jpg",
+            "artist": "John Smibert",
+            "title": "Dean Berkeley and His Entourage (The Bermuda Group)"
+        },
+        {
+            "date": "1778",
+            "url": "http://www.nga.gov/feature/watson/watsonfull15.jpg",
+            "artist": "John Singleton Copley",
+            "title": "Watson and the Shark"
+        },
+        {
+            "date": "1784",
+            "url": "https://www.usc.edu/schools/annenberg/asc/projects/comm544/library/images/143bg.jpg",
+            "artist": "Jacques-Louis David",
+            "title": "Oath of the Horatii"
+        },
+        {
+            "date": "1797",
+            "url": "https://s3.amazonaws.com/images.fineartamerica.com/images-medium/portrait-of-jean-baptiste-belley-anne-louis-girodet-de-roucy-trioson.jpg",
+            "artist": "Anne-Louis Girodet-Trioson",
+            "title": "Portrait of Jean-Baptiste Belley"
+        },
+        {
+            "date": "1822",
+            "url": "https://classconnection.s3.amazonaws.com/14/flashcards/481014/jpg/lethiere_oath_of_the_ancestors.jpg",
+            "artist": "Guillaume Guillon-Lethi\u00e8re",
+            "title": "Oath of the Ancestors"
+        }
+    ],
+    "name": "Week 8"
+}

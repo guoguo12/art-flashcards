@@ -1,0 +1,53 @@
+{
+    "artworks": [
+        {
+            "date": "1840",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Slave-ship.jpg/639px-Slave-ship.jpg",
+            "artist": "Joseph Mallord William Turner",
+            "title": "Slavers Throwing Overboard the Dead and Dying -- Typhoon Coming On (\"The Slave Ship\")"
+        },
+        {
+            "date": "1834",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Honor%C3%A9_Daumier_-_Rue_Transnonain%2C_April_15%2C_1834_-_WGA5966.jpg/640px-Honor%C3%A9_Daumier_-_Rue_Transnonain%2C_April_15%2C_1834_-_WGA5966.jpg",
+            "artist": "Honor\u00e9 Daumier",
+            "title": "Rue Transnonain"
+        },
+        {
+            "date": "1849",
+            "url": "http://www-tc.pbs.org/wgbh/cultureshock/flashpoints/visualarts/images/courbet_big.jpg",
+            "artist": "Gustave Courbet",
+            "title": "A Burial at Ornans"
+        },
+        {
+            "date": "1857",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg/640px-Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg",
+            "artist": "Jean-Francois Millet",
+            "title": "The Gleaners"
+        },
+        {
+            "date": "1863",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Edouard_Manet_-_Olympia_-_Google_Art_Project.jpg/640px-Edouard_Manet_-_Olympia_-_Google_Art_Project.jpg",
+            "artist": "\u00c9douard Manet",
+            "title": "Olympia"
+        },
+        {
+            "date": "1882",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Edouard_Manet%2C_A_Bar_at_the_Folies-Berg%C3%A8re.jpg/640px-Edouard_Manet%2C_A_Bar_at_the_Folies-Berg%C3%A8re.jpg",
+            "artist": "\u00c9douard Manet",
+            "title": "A Bar at the Folies-Berg\u00e8re"
+        },
+        {
+            "date": "1872",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/617px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg",
+            "artist": "Claude Monet",
+            "title": "Impression: Sunrise"
+        },
+        {
+            "date": "c. 1874",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Edgar_Degas_-_Rehearsal_on_Stage.jpg/640px-Edgar_Degas_-_Rehearsal_on_Stage.jpg",
+            "artist": "Edgar Degas",
+            "title": "The Rehearsal on Stage"
+        }
+    ],
+    "name": "Week 10"
+}

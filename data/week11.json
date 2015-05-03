@@ -1,0 +1,83 @@
+{
+    "artworks": [
+        {
+            "date": "1893",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Henry_Ossawa_Tanner_-_The_Banjo_Lesson.jpg/427px-Henry_Ossawa_Tanner_-_The_Banjo_Lesson.jpg",
+            "artist": "Henry Ossawa Tanner",
+            "title": "The Banjo Lesson"
+        },
+        {
+            "date": "c. 1890",
+            "url": "http://uploads2.wikiart.org/images/mary-cassatt/mother-and-child-1.jpg!Large.jpg",
+            "artist": "Mary Cassatt",
+            "title": "Mother and Child"
+        },
+        {
+            "date": "1875",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Whistler-Nocturne_in_black_and_gold.jpg/361px-Whistler-Nocturne_in_black_and_gold.jpg",
+            "artist": "James Abbott McNeill Whistler",
+            "title": "Nocturne in Black and Gold, The Falling Rocket"
+        },
+        {
+            "date": "1886",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg/640px-Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg",
+            "artist": "George Seurat",
+            "title": "A Sunday Afternoon on the Island of La Grande Jatte"
+        },
+        {
+            "date": "1892",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Paul_Gauguin-_Manao_tupapau_%28The_Spirit_of_the_Dead_Keep_Watch%29.JPG/608px-Paul_Gauguin-_Manao_tupapau_%28The_Spirit_of_the_Dead_Keep_Watch%29.JPG",
+            "artist": "Paul Gauguin",
+            "title": "Manao Tupapau (Spirit of the Dead Watching)"
+        },
+        {
+            "date": "1889",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Auguste_Rodin-Burghers_of_Calais_%28photo%29.jpg",
+            "artist": "Auguste Rodin",
+            "title": "The Burghers of Calais"
+        },
+        {
+            "date": "c. 1887",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Paul_C%C3%A9zanne_107.jpg/640px-Paul_C%C3%A9zanne_107.jpg",
+            "artist": "Paul C\u00e9zanne",
+            "title": "Mont Sainte-Victoire"
+        },
+        {
+            "date": "1906",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Bonheur_Matisse.jpg/640px-Bonheur_Matisse.jpg",
+            "artist": "Henri Matisse",
+            "title": "Le Bonheur de Vivre (The Joy of Life)"
+        },
+        {
+            "date": "1907",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Les_Demoiselles_d%27Avignon.jpg/463px-Les_Demoiselles_d%27Avignon.jpg",
+            "artist": "Pablo Picasso",
+            "title": "Les Demoiselles D'Avignon (The Young Ladies of Avignon)"
+        },
+        {
+            "date": "1910",
+            "url": "https://artmusette.files.wordpress.com/2013/10/braque_violin_and_palette_19092.jpg",
+            "artist": "Georges Braque",
+            "title": "Violin and Palette"
+        },
+        {
+            "date": "1913",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/%27Unique_Forms_of_Continuity_in_Space%27%2C_1913_bronze_by_Umberto_Boccioni.jpg/482px-%27Unique_Forms_of_Continuity_in_Space%27%2C_1913_bronze_by_Umberto_Boccioni.jpg",
+            "artist": "Umberto Boccioni",
+            "title": "Unique Forms of Continuity in Space"
+        },
+        {
+            "date": "1917",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Duchamp_Fountaine.jpg/454px-Duchamp_Fountaine.jpg",
+            "artist": "Marcel Duchamp",
+            "title": "Fountain"
+        },
+        {
+            "date": "1919",
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Hoch-Cut_With_the_Kitchen_Knife.jpg/476px-Hoch-Cut_With_the_Kitchen_Knife.jpg",
+            "artist": "Hannah H\u00f6ch",
+            "title": "Cut with the Dada Kitchen Knife Through the Last Weimar Beer-Belly Cultural Epoch in Germany"
+        }
+    ],
+    "name": "Week 11"
+}

@@ -1,0 +1,53 @@
+{
+    "artworks": [
+        {
+            "date": "1978",
+            "url": "http://www.moma.org/collection_images/resized/970/w500h420/CRI_9970.jpg",
+            "artist": "Cindy Sherman",
+            "title": "Untitled Film Still, #21"
+        },
+        {
+            "date": "1981",
+            "url": "https://artistsquare.files.wordpress.com/2011/06/barbara_kruger-untitled-your_gaze_hits_the_side_of_my_face-1981-jpg.jpeg",
+            "artist": "Barbara Kruger",
+            "title": "Untitled (Your Gaze Hits the Side of My Face)"
+        },
+        {
+            "date": "1990",
+            "url": "http://blog.tepapa.govt.nz/wp-content/uploads/2009/02/luna-artifact-piece-1987.jpg",
+            "artist": "James Luna",
+            "title": "The Artifact Piece"
+        },
+        {
+            "date": "1996",
+            "url": "http://i.telegraph.co.uk/multimedia/archive/01567/chris-ofili_1567996c.jpg",
+            "artist": "Chris Ofili",
+            "title": "The Holy Virgin Mary"
+        },
+        {
+            "date": "1990",
+            "url": "http://images.andrearosengallery.com/www_andrearosengallery_com/175268430619c9338d.jpg",
+            "artist": "Felix Gonzalez-Torres",
+            "title": "Untitled (Loverboy)"
+        },
+        {
+            "date": "1995",
+            "url": "https://40.media.tumblr.com/QK0AEoszEkq3x6e2Ek9Dl5mgo1_500.jpg",
+            "artist": "Nam June Paik",
+            "title": "Electronic Superhighway: Continental U.S."
+        },
+        {
+            "date": "2006",
+            "url": "http://www.brooklynmuseum.org/exhibitions/yinka_shonibare_mbe/images/TwoHeadsAtOnce_542.jpg",
+            "artist": "Yinka Shonibare",
+            "title": "How To Blow Up Two Heads at Once (Ladies)"
+        },
+        {
+            "date": "2013",
+            "url": "https://svbscription.com/sites/default/files/1a-pavillon.jpg",
+            "artist": "Sarah Sze",
+            "title": "Triple Point"
+        }
+    ],
+    "name": "Week 14"
+}

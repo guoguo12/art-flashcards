@@ -1,0 +1,71 @@
+{
+    "artworks": [
+        {
+            "date": "1761",
+            "url": "http://www.artinthepicture.com/artists/Anton_Raphael_Mengs/parnassus.jpeg",
+            "artist": "Anton Rapheal Mengs",
+            "title": "Parnassus"
+        },
+        {
+            "date": "c. 1785",
+            "url": "https://classconnection.s3.amazonaws.com/876/flashcards/4042876/jpg/angelica-kauffmann-cornelia-pointing-to-her-children-as-her-treasures-c-1785-oil-on-canvas-40-x-50-142E85E0A331E57DE24.jpg",
+            "artist": "Angelica Kauffmann",
+            "title": "Cornelia Pointing to her Children as her Treasures"
+        },
+        {
+            "date": "1770",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Benjamin_West_005.jpg/640px-Benjamin_West_005.jpg",
+            "artist": "Benjamin West",
+            "title": "The Death of General Wolfe"
+        },
+        {
+            "date": "1781",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/John_Henry_Fuseli_-_The_Nightmare.JPG/593px-John_Henry_Fuseli_-_The_Nightmare.JPG",
+            "artist": "John Henry Fuseli",
+            "title": "The Nightmare"
+        },
+        {
+            "date": "1808",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg/622px-El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg",
+            "artist": "Francisco Goya",
+            "title": "Third of May"
+        },
+        {
+            "date": "1804",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Antoine-Jean_Gros_-_Bonaparte_visitant_les_pestif%C3%A9r%C3%A9s_de_Jaffa.jpg/640px-Antoine-Jean_Gros_-_Bonaparte_visitant_les_pestif%C3%A9r%C3%A9s_de_Jaffa.jpg",
+            "artist": "Antoine-Jean Gros",
+            "title": "Napoleon in the Plague House at Jaffa"
+        },
+        {
+            "date": "1819",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg/640px-JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg",
+            "artist": "Th\u00e9odore G\u00e9ricault",
+            "title": "The Raft of the \"Medusa\""
+        },
+        {
+            "date": "1830",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg/607px-Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg",
+            "artist": "Eug\u00e8ne Delacroix",
+            "title": "Liberty Leading the People: July 28"
+        },
+        {
+            "date": "1814",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Jean_Auguste_Dominique_Ingres%2C_La_Grande_Odalisque%2C_1814.jpg/640px-Jean_Auguste_Dominique_Ingres%2C_La_Grande_Odalisque%2C_1814.jpg",
+            "artist": "Jean-Auguste-Dominique Ingres",
+            "title": "Large Odalisque"
+        },
+        {
+            "date": "c. 1870",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Jean-L%C3%A9on_G%C3%A9r%C3%B4me_-_Le_charmeur_de_serpents.jpg/640px-Jean-L%C3%A9on_G%C3%A9r%C3%B4me_-_Le_charmeur_de_serpents.jpg",
+            "artist": "Jean-L\u00e9on G\u00e9r\u00f4me",
+            "title": "The Snake Charmer"
+        },
+        {
+            "date": "1837",
+            "url": "http://www.nyklewicz.com/273/hybrid/images/history/Daguerre02.jpg",
+            "artist": "Louis-Jacques-Mand\u00e9 Daguerre",
+            "title": "The Artist's Studio"
+        }
+    ],
+    "name": "Week 9"
+}
